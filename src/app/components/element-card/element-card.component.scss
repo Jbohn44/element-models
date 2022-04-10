@@ -1,0 +1,22 @@
+.card {
+    height: 20rem;
+    width: 15rem;
+    border-radius: .5rem;
+    background-color: rgb(222, 190, 222);
+    z-index: -1;
+    box-shadow: 2px 2px 5px black;
+}
+
+.card-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
