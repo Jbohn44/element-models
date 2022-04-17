@@ -7,6 +7,7 @@ import { ElementCardComponent } from './components/element-card/element-card.com
 import { ElementComponent } from './components/element/element.component';
 import { PeriodicTableComponent } from './components/periodic-table/periodic-table.component';
 import { TablePageComponent } from './components/table-page/table-page.component';
+import { ElementTileComponent } from './components/element-tile/element-tile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TablePageComponent } from './components/table-page/table-page.component
     ElementCardComponent,
     ElementComponent,
     PeriodicTableComponent,
-    TablePageComponent
+    TablePageComponent,
+    ElementTileComponent
   ],
   imports: [
     BrowserModule,

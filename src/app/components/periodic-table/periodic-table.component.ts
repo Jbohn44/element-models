@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ChemElement } from 'src/app/models/chem-element.model';
+import { ChemElementService } from 'src/app/services/chem-element.service';
 
 @Component({
   selector: 'app-periodic-table',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./periodic-table.component.scss']
 })
 export class PeriodicTableComponent implements OnInit {
-
-  constructor() { }
+  elementArray: ChemElement[] = [];
+  constructor(private elementService: ChemElementService) { }
 
   ngOnInit(): void {
+    this.elementService.getAllElements().subscribe(x => {
+      this.elementArray = <ChemElement[]>x;
+      console.log(this.elementArray)
+    
+    });
   }
 
 }
