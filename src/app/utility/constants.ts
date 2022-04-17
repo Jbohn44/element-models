@@ -3,49 +3,89 @@ export const ElementData = [
         AtomicNumber: 1,
         Name: "Hydrogen",
         Symbol: "H",
-        AtomicWeight: 0
+        AtomicWeight: 1.008,
+        TableInfo: {
+            Block: "s-block",
+            Group: "1",
+            Period: "1"
+        }
     },
     {
         AtomicNumber: 2,
         Name: "Helium",
         Symbol: "He",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 3,
         Name: "Lithium",
         Symbol: "Li",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 4,
         Name: "Beryllium",
         Symbol: "Be",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 5,
         Name: "Boron",
         Symbol: "B",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 6,
         Name: "Carbon",
         Symbol: "C",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 7,
         Name: "Nitrogen",
         Symbol: "N",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 8,
         Name: "Oxygen",
         Symbol: "O",
-        AtomicWeight: 0
+        AtomicWeight: 0,
+        TableInfo: {
+            Block: "",
+            Group: "",
+            Period: ""
+        }
     },
     {
         AtomicNumber: 9,
@@ -511,182 +551,182 @@ export const ElementData = [
     },
     {
         AtomicNumber: 86,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Radon",
+        Symbol: "Rn",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 87,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Francium",
+        Symbol: "Fr",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 88,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Radium",
+        Symbol: "Ra",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 89,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Actinium",
+        Symbol: "Ac",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 90,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Thorium",
+        Symbol: "Th",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 91,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Protactinium",
+        Symbol: "Pa",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 92,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Uranium",
+        Symbol: "U",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 93,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Neptunium",
+        Symbol: "Np",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 94,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Plutonium",
+        Symbol: "Pu",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 95,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Americium",
+        Symbol: "Am",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 96,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Curium",
+        Symbol: "Cm",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 97,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Berkelium",
+        Symbol: "Bk",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 98,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Californium",
+        Symbol: "Cf",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 99,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Einsteinium",
+        Symbol: "Es",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 100,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Fermium",
+        Symbol: "Fm",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 101,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Mendelevium",
+        Symbol: "Md",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 102,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Nobelium",
+        Symbol: "No",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 103,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Lawrenceium",
+        Symbol: "Lr",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 104,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Rutherfordium",
+        Symbol: "Rf",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 105,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Dubnium",
+        Symbol: "Db",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 106,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Seaborgium",
+        Symbol: "Sg",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 107,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Bohrium",
+        Symbol: "Bh",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 108,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Hassium",
+        Symbol: "Hs",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 109,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Meitnerium",
+        Symbol: "Mt",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 110,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Darmstadtium",
+        Symbol: "Ds",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 111,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Roentgenium",
+        Symbol: "Rg",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 112,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Copernicium",
+        Symbol: "Cn",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 113,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Nihonium",
+        Symbol: "Nh",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 114,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Flerovium",
+        Symbol: "Fl",
         AtomicWeight: 0
     },
     {
         AtomicNumber: 115,
-        Name: "Hydrogen",
-        Symbol: "H",
+        Name: "Moscovium",
+        Symbol: "Mc",
         AtomicWeight: 0
     },
     {
