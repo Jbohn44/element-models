@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ElementCardComponent } from './components/element-card/element-card.component';
 import { ElementComponent } from './components/element/element.component';
 import { PeriodicTableComponent } from './components/periodic-table/periodic-table.component';
+import { TablePageComponent } from './components/table-page/table-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ElementCardComponent,
     ElementComponent,
-    PeriodicTableComponent
+    PeriodicTableComponent,
+    TablePageComponent
   ],
   imports: [
     BrowserModule,
