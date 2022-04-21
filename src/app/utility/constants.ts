@@ -16,7 +16,7 @@ export const ElementData = [
         Symbol: "He",
         AtomicWeight: 0,
         TableInfo: {
-            Block: "",
+            Block: "s-block",
             Group: "",
             Period: ""
         }

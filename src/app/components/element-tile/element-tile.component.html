@@ -1,4 +1,7 @@
-<div class="tile">
+<div [ngClass]="{'s-block': element.TableInfo?.Block==='s-block', 
+'p-block': element.TableInfo?.Block==='p-block', 
+'d-block': element.TableInfo?.Block==='d-block', 
+'f-block': element.TableInfo?.Block==='f-block'}" class="tile">
     <div class="atomic-number">{{element.AtomicNumber}}</div>
     <h3 class="symbol-format">{{element.Symbol}}</h3>
 </div>
